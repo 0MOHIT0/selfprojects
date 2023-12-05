@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.backimg {
+  background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707),
+    url(./ed-assests/bgimg.png);
+  height: 480px;
+  background-size: cover;
+}
+
+.blockquote p{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.d-grid .box1{
+    width: 245px;
+    height: 60px;
+}
+
+.d-grid .box2{
+   width: 400px;
+   height: 60px;
+   padding-left: 50px;
+}
+
+.d-grid svg{
+    position: absolute;
+  margin-right: 90px;
+  margin-top: 5px;
+}
+
+.d-grid .lead{
+    color: #192F60;
+    font-weight: bolder;
+    /* font-size: 2rem; */
+}
+
+.d-grid p{
+    color: #8C96AB;
+    font-weight: 400;
+}
+
+.card-body h5{
+    color: #192F60;
+    font-weight: bolder;
+    /* font-size: 2rem; */
+}
+
+.card {
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  }
+
+.card img{
+    height: 130px;
+}
+
+@media (max-width: 576px) {.rounded-circle{display: ;}}
+
+@media (max-width: 576px) {.d-grid .box1{width: 200px; height: 20px;font-size: 0.8rem;margin-left: 80px;text-align: center;}}
+
+@media (max-width: 576px) {.d-grid .box2{width: 250px; height: 20px;font-size: 0.8rem;margin-left: 60px;}}
+
+@media (max-width: 576px) {.d-grid svg{display: none;}}
